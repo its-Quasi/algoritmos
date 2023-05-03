@@ -8,16 +8,9 @@ using namespace std;
 #define sz(x) int((x).size())
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
-#define a(i) _a[1+(i)]
 typedef long long ll;
 typedef pair<int, int> pii;
- 
 
 int main(){
   fastIO;
-  int t = 1, n; // test cases
-  //cin>>t
-  while(t--){
-    //Your code here
-  }
 }
