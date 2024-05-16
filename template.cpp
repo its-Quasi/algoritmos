@@ -8,8 +8,12 @@ using namespace std;
 #define sz(x) int((x).size())
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
+#define loop(i, n) for (ll i = 0; i < n; i++)
 typedef long long ll;
-typedef pair<int, int> pii;
+template <typename T>
+void read_vector(vector<T> &v) {
+  loop(i, sz(v)) cin >> v[i];
+}
 
 int main(){
   fastIO;
